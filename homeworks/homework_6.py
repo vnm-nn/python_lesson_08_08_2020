@@ -10,8 +10,7 @@
 a = int(input("Enter 1st day run result: "))
 b = int(input("Enter total result: "))
 day = 1
-if a > b:
-    print(f"Finish 1st day!")
+
 while a < b:
     a = a + a / 10
     day += 1
